@@ -18,6 +18,7 @@
 		"node-localstorage": "^2.2.1"
 	},
 	"devDependencies": {
+		"identity-obj-proxy": "^3.0.0",
 		"jest": "^29.2.2",
 		"supertest": "^6.3.1"
 	}
