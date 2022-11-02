@@ -7,6 +7,11 @@ pipeline {
                 sh 'npm install'
             }
         }
+        stage('Tests') {
+            steps {
+                sh 'npm test'
+            }
+        }
         stage('Deploy') {
             steps {
                 sh 'sudo pm2 restart index.js'
