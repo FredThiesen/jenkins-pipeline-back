@@ -9,7 +9,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'pm2 start index.js'
+                sh 'pm2 start index.js',
+                sh 'pm2 save'
             }
         }
     }
