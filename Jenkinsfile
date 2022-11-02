@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Tests') {
             steps {
-                sh 'npm test'
+                sh 'sudo npm test'
             }
         }
         stage('Deploy') {
