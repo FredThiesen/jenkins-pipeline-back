@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'npm run start-prod'
+                sh 'pm2 start main.js'
             }
         }
     }
