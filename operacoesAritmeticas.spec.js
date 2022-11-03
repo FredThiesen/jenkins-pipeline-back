@@ -2,8 +2,8 @@ const operacoesAritmeticas = require("./operacoesAritmeticas")
 
 describe("Conjunto de testes app", () => {
 	it("deve realizar divisão", async () => {
-		const resultado = operacoesAritmeticas.dividir(10, 2)
-		expect(resultado).toBe(5)
+		const resultado = operacoesAritmeticas.dividir(12, 2)
+		expect(resultado).toBe(6)
 	})
 
 	it("deve realizar soma", async () => {
