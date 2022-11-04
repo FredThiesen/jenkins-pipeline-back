@@ -41,3 +41,5 @@ app.get("/clientes/listar/:key", function (req, res) {
 app.listen(PORT, function () {
 	console.log("Servidor-Backend está rodando na porta: " + PORT)
 })
+
+module.exports = app
