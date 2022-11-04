@@ -9,6 +9,7 @@ pipeline {
         }
         stage('Tests') {
             steps {
+                sh 'sudo pm2 stop index.js || true'
                 sh 'sudo npm test'
             }
         }
