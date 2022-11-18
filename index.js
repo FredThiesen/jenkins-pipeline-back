@@ -46,7 +46,7 @@ app.get("/clientes/listar", function (req, res) {
 	})
 })
 
-app.get("/clientes/listar/:key", function (req, res) {
+app.get("/buscar/:key", function (req, res) {
 	// const key = req.params.key
 	// const dados = database.buscaDados(key)
 	// console.log(dados)
